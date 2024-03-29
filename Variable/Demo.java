@@ -1,4 +1,4 @@
-//String [] args is a array of type java.lang.String class & stores command line argument also name of String array is args
+//String [] args is a array of type java.lang.String class & stores command line argument, also name of String array is args
 //Command line argument are the argument pass at time of execution. we need to give arg after java filename while executing
 //Primitve datatype cannot store null values
 //Non-primitive can store null values

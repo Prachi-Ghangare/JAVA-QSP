@@ -1,3 +1,5 @@
+//Write a program to check whether user is able to donate blood or not? User must be 20+ and must not consume cigarette or alcohol in 24 hours before donating blood and weight must be more than 50 kg
+
 import java.util.Scanner;
 class BloodDonation{
 	public static void main(String[] args) {

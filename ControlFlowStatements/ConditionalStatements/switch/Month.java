@@ -1,3 +1,5 @@
+//Write a program to display the month based on user entered month number
+
 import java.util.Scanner;
 
 class Month{
@@ -16,7 +18,7 @@ class Month{
 			case 6 : month = "June";break;
 			case 7 : month = "July";break;
 			case 8 : month = "August";break;
-			case 9: month = "September";break;
+			case 9 : month = "September";break;
 			case 10 : month = "October";break;
 			case 11 : month = "November";break;
 			case 12 : month = "December";break;

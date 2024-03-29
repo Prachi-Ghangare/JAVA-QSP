@@ -2,12 +2,12 @@ class IfExample{
 	public static void main(String[] args) {
 		System.out.println("Execution Starts");
 
-		// if(true){
-		// 	System.out.println("Hello from if block");
-		// }
+		if(true){
+			System.out.println("Hello from if block"); //will execute
+		}
 
 		// if(false){
-		// 	System.out.println("Hello from if block");
+		// 	System.out.println("Hello from if block"); //won't execute
 		// }
 
 		// final boolean b = true;
@@ -56,10 +56,10 @@ class IfExample{
 		// 		System.out.println("Bye"); // will execute
 		// 		System.out.println("Hello from if block"); // behave like not a part of if block
 
-		if(true);
-		{
-			//will directly go to next statement
-		}
+		// if(true);
+		// {
+		// 	//will directly go to next statement
+		// }
            
 		System.out.println("Execution Ends");
 		}

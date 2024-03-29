@@ -1,3 +1,5 @@
+//Write a program to perform arithmetic operation on two numbers.
+
 import java.util.Scanner;
 
 class Calculator{

@@ -1,3 +1,5 @@
+//Write a program to check whether a character is vowel or not
+
 import java.util.Scanner;
 
 class VowelSwitch{
@@ -7,10 +9,10 @@ class VowelSwitch{
 		char ch = sc.next().toLowerCase().charAt(0);
 		switch(ch)
 		{
-			case 'a': //fallthorugh
-			case 'e': //fallthorugh
-			case 'i': //fallthorugh
-			case 'o': //fallthorugh
+			case 'a': //fallthrough
+			case 'e': //fallthrough
+			case 'i': //fallthrough
+			case 'o': //fallthrough
 			case 'u':System.out.print(ch+" is a Vowel");break;
 			default:System.out.print(ch+" is a Consonent");break;
 		}

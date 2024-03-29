@@ -5,7 +5,7 @@ class IntExample{
 		System.out.print(a+b); // -1 goes in -ve end
 
 		// int c = 'c';
-		// System.out.print(c); // 99
+		// System.out.print(c); // 99 - ASCII value of 'c'
 
 		// int a = -128;
 		// a = a-1;

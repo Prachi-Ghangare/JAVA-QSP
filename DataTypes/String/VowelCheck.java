@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class ScannerExample1{
+class VowelCheck{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter your number:");

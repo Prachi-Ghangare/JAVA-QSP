@@ -1,3 +1,5 @@
+//Write a program to display season based on user entered month 
+
 import java.util.Scanner;
 
 class Seasons{
