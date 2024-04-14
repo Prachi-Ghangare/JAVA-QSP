@@ -1,5 +1,3 @@
-package DataTypes.String;
-
 class StringExample {
     public static void main(String[] args) {
         String a = "Hello";     // " " -> String Literal

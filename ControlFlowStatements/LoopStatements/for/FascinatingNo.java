@@ -7,17 +7,17 @@ class FascinatingNo{
 		int num2=num1*2;
 		int num3=num1*3;
 		String str=""+num1+num2+num3;
-		boolean flag = false;
-		int count=0;
+		boolean flag = true;
 
 		for(char c='1';c<='9';c++){
+			int count=0;
 			for(int i=0;i<str.length();i++){
 				if(str.charAt(i)==c){
 					count++;
 				}
 			}
 			if(count>0){
-				flag=true;
+				flag=false;
 				break;
 			}
 		}
