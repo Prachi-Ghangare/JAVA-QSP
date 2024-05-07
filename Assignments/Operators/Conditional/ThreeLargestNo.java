@@ -13,6 +13,5 @@ class ThreeLargestNo{
 		System.out.print("Enter a num3:");
 		int num3 = sc.nextInt();
 		System.out.print((num1>num2)?((num1>num3)?num1:num3):((num2>num3)?num2:num3));
-		System.out.print(a[i]);
 	}
 }

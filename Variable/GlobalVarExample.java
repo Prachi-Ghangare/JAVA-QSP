@@ -19,6 +19,6 @@ class GlobalVarExample{
 		System.out.println(b);
 		System.out.println(c);
 
-		System.out.print(i); //CTE:non-static variable i cannot be referenced from a static context
+		// System.out.print(i); //CTE:non-static variable i cannot be referenced from a static context
 	}
 }

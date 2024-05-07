@@ -29,7 +29,7 @@ class DoWhileEx{
 		// do{
 		// 	System.out.print("Hello"+i);
 		// 	i++;
-		// }while(i<1)
+		// }while(i<1) //CTE: ';' expected
 
 		// int i;
 		// do{
@@ -40,7 +40,7 @@ class DoWhileEx{
 
 		// int i=1;
 		// do
-		// 	System.out.print("Hello"); //infinite loop
+		// 	System.out.print("Hello"); //infinite loop,need update statement
 		// while(i<=5);
 
 

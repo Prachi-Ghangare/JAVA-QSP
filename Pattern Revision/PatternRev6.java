@@ -3,12 +3,17 @@ class PatternRev6{
 	static int count=1;
 	public static void main(String[] args) {
 		for(int i=1;count<11;i++){
+			loop:
 			for(int j=1;j<=i;j++){
 				if(prime()){
-					System.out.print(num +" "); //2 
+					System.out.print(num +" "); //2 3 
 					count++; //1 2
+					num++;
 				}
-				num++;
+				else{
+					num++;
+					continue loop ;
+				}
 			}
 			System.out.println();
 		}

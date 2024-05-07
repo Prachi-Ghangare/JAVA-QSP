@@ -7,9 +7,9 @@ class ForExample{
 
 		// for(;;); //blank output
 
-		for(int i = 1;i<=5;i++){
-			System.out.print(i+" "); //1 2 3 4 5
-		}
+		// for(int i = 1;i<=5;i++){
+		// 	System.out.print(i+" "); //1 2 3 4 5
+		// }
 
 		// for(int i = 1;i<=5;i++)
 		// 	System.out.print(i+" "); //1 2 3 4 5
@@ -56,8 +56,8 @@ class ForExample{
 		// for(int i=1;i<=5;i++)
 		// 	break; // will execute gives blank output
 
-		// for(int i=1;i<=5;i++);
-		// 	System.out.print("Hello"); //print hello 1 time
+		for(int i=1;i<=5;i++);
+			System.out.print("Hello"); //print hello 1 time
 		
 	}
 }

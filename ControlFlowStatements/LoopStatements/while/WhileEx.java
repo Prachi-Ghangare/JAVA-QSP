@@ -7,11 +7,16 @@ class WhileEx{
 		// 	updation
 		// }
 
-		int i=1;
-		while(i<=5){
-			System.out.println("Hello "+i);
-			i++;
-		}
+		// int i=1;
+		// while(i<=5){
+		// 	System.out.println("Hello "+i);
+		// 	i++;
+		// }
+
+		// int i;
+		// while(i=1){ //CTE: int cannot be converted to boolean
+		// 	System.out.print("hello");
+		// }
 
 		// int i=1;
 		// while(i<=5){
@@ -41,8 +46,9 @@ class WhileEx{
 		// System.out.print("Bye");
 
 		// int i=1;
-		// while(i<=3)
-		// 	System.out.print("Hello"+i); //infinite loop,need update statement
+		// while(i<=3){
+		// 	System.out.print("Hello"+i); //infinite hello,need update statement
+		// }
 		// System.out.print("bye");
 
 		// int i=1;
@@ -62,7 +68,7 @@ class WhileEx{
 		// while(true)
 		// 	System.out.print("Hello"); //infinite loop
 
-		// while(true);
-		// 	System.out.print("Hello"); //unreachable statement
+		while(true);
+			System.out.print("Hello"); //unreachable statement
 	}
 }

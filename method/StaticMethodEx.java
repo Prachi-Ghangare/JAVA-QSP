@@ -1,4 +1,4 @@
-class StaticMethodEx{
+/*class StaticMethodEx{
 	public static void main(String[] args) {
 		m1();
 		Demo.m2();
@@ -6,13 +6,13 @@ class StaticMethodEx{
 
 	public static void m1() {
 		System.out.println("Hello from m1()");
-	}
+	}	
 }
 class Demo{
 	public static void m2() {
 		System.out.println("Hello from m2()");
 	}
-}
+}*/
 
 /*class StaticMethodEx{
 	public static void main(String[] args) {
@@ -82,7 +82,7 @@ class Demo{
 
 /*class StaticMethodEx{
 	public static void main(String[] args) {
-		StaticMemberEx obj = new StaticMemberEx();
+		StaticMethodEx obj = new StaticMethodEx();
 		obj.m1(); 
 		Demo.m2();
 	}
@@ -96,3 +96,25 @@ class Demo{
 		System.out.println("Hello from m2()");
 	}
 }*/
+
+class StaticMethodEx{
+	public static void main(String[] args) {
+		StaticMethodEx obj = new StaticMethodEx();
+		obj.m1(); 
+		Demo.m2();
+	}
+
+	void m1() {
+		System.out.println("Hello from m1()");
+		m2();
+	}
+
+	static void m2(){
+		System.out.println("Hello from m2()");
+	}
+}
+class Demo{
+	public static void m2() {
+		System.out.println("Hello from m2()");
+	}
+}
