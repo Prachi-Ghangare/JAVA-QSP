@@ -15,11 +15,11 @@ class Mobile{
 
 	void display(){
 		System.out.println("**** Mobile Details ****");
-		System.out.println("Brand: "+brand);
-		System.out.println("Model: "+model);
-		System.out.println("RAM: "+ram+"gb");
-		System.out.println("ROM: "+rom+"gb");
-		System.out.println("Price:Rs. "+price);
+		System.out.println("Brand: "+this.brand);
+		System.out.println("Model: "+this.model);
+		System.out.println("RAM: "+this.ram+"gb");
+		System.out.println("ROM: "+this.rom+"gb");
+		System.out.println("Price:Rs. "+this.price);
 	}
 }
 
