@@ -1,3 +1,5 @@
+//A->1 AA->27 AB->28
+
 import java.util.Scanner;
 class CharEx{
 	public static void main(String[] args) {

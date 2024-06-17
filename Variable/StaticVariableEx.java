@@ -60,14 +60,14 @@ class StaticVariableEx2{
 /*class StaticVariableEx{
 	static int i=10;
 	public static void main(String[] args) {
-		String i="20";
+		int i=20;
 		System.out.println(StaticVariableEx.i); //10
 		System.out.println(i); //20
 		StaticVariableEx2.m2(); 
 		m1();
 	}
 	public static void m1() {
-		System.out.println(i); //10
+		System.out.println(i); //50
 		StaticVariableEx2.m2(); 
 	}
 }
