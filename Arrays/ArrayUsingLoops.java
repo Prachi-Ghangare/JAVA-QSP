@@ -22,5 +22,7 @@ class ArrayUsingLoops{
 		for (int k :a ) {
 			System.out.print(k+" ");
 		}
+		System.out.print("\n5.using toString(): ");
+		System.out.println(Arrays.toString(a));
 	}
 }

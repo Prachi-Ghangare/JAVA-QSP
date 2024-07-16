@@ -1,4 +1,4 @@
-//Fetch odd no. from array and store in another arr
+//Fetch even no. from array and store in another arr
 
 import java.util.*;
 class EvenArray{

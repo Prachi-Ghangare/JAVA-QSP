@@ -6,7 +6,7 @@ class FibSeries{
 		int num=sc.nextInt();
 		int num1=0,num2=1;
 		System.out.print(num1+" "+num2+" ");
-		for(int i=1;i<=num;i++){
+		for(int i=3;i<=num;i++){
 			int fib = num1+num2;
 			System.out.print(fib+" ");
 			num1=num2; 

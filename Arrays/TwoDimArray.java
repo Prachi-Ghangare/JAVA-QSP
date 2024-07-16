@@ -8,6 +8,8 @@ class TwoDimArray{
 				System.out.print(arr[i][j]+" ");
 			}
 		}
+		System.out.print(Arrays.deepToString(arr));
+		System.out.println();
 		System.out.print("\n2.while loop: ");
 		int i=0;
 		while(i<arr.length){
@@ -18,6 +20,8 @@ class TwoDimArray{
 			}
 			i++;
 		}
+		System.out.print(Arrays.deepToString(arr));
+		System.out.println();
 		System.out.print("\n3.do-while loop: ");
 		int j=0;
 		do{
@@ -28,11 +32,15 @@ class TwoDimArray{
 			}while(k<arr[j].length);
 			j++;
 		}while(j<arr.length);
+		System.out.print(Arrays.deepToString(arr));
+		System.out.println();
 		System.out.print("\n4.for each: ");
 		for (int [] k :arr ) {
 			for (int l :k ) {
 				System.out.print(l+" ");
 			}
 		}
+		System.out.print(Arrays.deepToString(arr));
+		System.out.println();
 	}
 }

@@ -10,6 +10,7 @@ class PosNegCountInArr{
 		int countP=0,countN=0;
 
 		//inserting element in an array
+		System.out.println("Enter elements of an array:");
 		for(int i=0;i<rows;i++){
 			for(int j=0;j<cols;j++){
 				arr[i][j]=sc.nextInt();

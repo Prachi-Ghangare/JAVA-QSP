@@ -5,6 +5,7 @@ class LengthOfArray{
 		for(int i:arr)
 			len++;
 		System.out.println("Length of array is: "+len);
+		System.out.println("Length of array is: "+arr.length); //built-in method length
 	}
 }
 
